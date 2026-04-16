@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision 2026 | Event Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>TechVision 2026</h1>
+            <p>The Future of AI and Sustainable Tech</p>
+            
+            <div id="countdown">
+                <ul>
+                    <li><span id="days">00</span>Days</li>
+                    <li><span id="hours">00</span>Hours</li>
+                    <li><span id="minutes">00</span>Min</li>
+                    <li><span id="seconds">00</span>Sec</li>
+                </ul>
+            </div>
+            <a href="#register" class="btn">Secure Your Spot</a>
+        </div>
+    </header>
+
+    <section id="agenda" class="section">
+    <div class="container">
+        <h2 class="section-title">Event Schedule</h2>
+        <div class="agenda-container">
+            <div class="agenda-item">
+                <div class="time">09:00 AM</div>
+                <div class="details">
+                    <h3>Opening Keynote</h3>
+                    <p>Setting the stage for the next decade of innovation.</p>
+                </div>
+            </div>
+            <div class="agenda-item">
+                <div class="time">11:00 AM</div>
+                <div class="details">
+                    <h3>The AI Revolution</h3>
+                    <p>Panel discussion with industry leaders on ethical AI scaling.</p>
+                </div>
+            </div>
+            <div class="agenda-item">
+                <div class="time">01:00 PM</div>
+                <div class="details">
+                    <h3>Networking Lunch</h3>
+                    <p>Complimentary gourmet lunch and breakout networking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-card">
+                <h4>Is this event beginner-friendly?</h4>
+                <p>Absolutely! We have tracks ranging from foundational concepts to deep-dive technical workshops.</p>
+            </div>
+            <div class="faq-card">
+                <h4>Are tickets refundable?</h4>
+                <p>Full refunds are available up to 30 days before the event starts.</p>
+            </div>
+            <div class="faq-card">
+                <h4>Will there be a virtual option?</h4>
+                <p>Yes, we offer a "Digital Only" pass for those who cannot travel to the venue.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="speakers" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <div class="speaker-grid">
+                <div class="speaker-card">
+                    <div class="speaker-img"></div>
+                    <h3>Dr. Sarah Jenkins</h3>
+                    <p>Lead AI Researcher, Google</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-img"></div>
+                    <h3>Marcus Thorne</h3>
+                    <p>CTO, EcoStream</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-img"></div>
+                    <h3>Elena Rodriguez</h3>
+                    <p>Cybersecurity Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section">
+    <div class="container">
+        <h2 class="section-title">The Venue</h2>
+        <div class="location-wrapper">
+            <div class="location-info">
+                <h3>Grand Tech Plaza</h3>
+                <p>123 Innovation Way, San Francisco, CA</p>
+                <p><strong>Parking:</strong> Available on-site at Garage B.</p>
+                <p><strong>Transit:</strong> 5-minute walk from Central Station.</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0191124822034!2d-122.4035622!3d37.7873589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064402636a3%3A0x6335f6067b458c97!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1616568245642!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="register" class="section bg-light">
+    <div class="container">
+        <div class="form-card">
+            <h2 class="section-title">Claim Your Seat</h2>
+            <form id="registration-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Jane Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="jane@company.com" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Company / Organization</label>
+                        <input type="text" placeholder="Tech Industries">
+                    </div>
+                    <div class="form-group">
+                        <label>Ticket Type</label>
+                        <select>
+                            <option>Standard Pass - $199</option>
+                            <option>VIP Pass - $399</option>
+                            <option>Student Pass - $49</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Dietary Requirements (Optional)</label>
+                    <input type="text" placeholder="e.g. Vegan, Gluten-Free">
+                </div>
+
+                <button type="submit" class="btn btn-block">Register & Pay</button>
+                <p class="secure-text">🔒 Secure Checkout via Stripe</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>TechVision 2026</h3>
+                <p>Pushing the boundaries of what's possible.</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="LinkedIn">LN</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <hr>
+            <p>&copy; 2026 WebNova Studio | RR Web Designers. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
